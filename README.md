@@ -6,7 +6,7 @@ Projeto desenvolvido para a disciplina Programação Imperativa e Funcional.
 
 * Linux ou WSL
 * GCC
-* CLI-LIB (já incluída no repositório)
+* CLI-LIB
 
 ## Compilação
 
@@ -28,11 +28,11 @@ gcc src/main.c cli-lib/src/keyboard.c cli-lib/src/screen.c cli-lib/src/timer.c -
 
 ## Controles
 
-* W → cima
-* S → baixo
-* A → esquerda
-* D → direita
-* Q → sair
+* W = cima
+* A = esquerda
+* S = baixo
+* D = direita
+* Q = sair
 
 ## Funcionalidades
 
@@ -40,9 +40,10 @@ gcc src/main.c cli-lib/src/keyboard.c cli-lib/src/screen.c cli-lib/src/timer.c -
 * 4 fantasmas
 * Sistema de vidas
 * Power-up (cereja)
-* Ranking salvo em arquivo
-* Lista encadeada para gerenciamento dos inimigos
+* Ranking de pontuação
+* Lista encadeada para os inimigos
 * Alocação dinâmica de memória com malloc
 
-```
-```
+## Vídeo de demonstração
+
+https://youtu.be/oHU82x-z944
